@@ -1,7 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import firebase from './utils/firebase'
 
 export default function App() {
+
   return (
     <View style={styles.container}>
       <Text>Soy santiago!</Text>
